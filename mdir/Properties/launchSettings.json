@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "mdir": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\work\\src\\mdir\\mdir\\bin\\Debug\\netcoreapp3.1\\folders.txt"
+    }
+  }
+}
