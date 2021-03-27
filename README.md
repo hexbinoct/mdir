@@ -2,36 +2,36 @@
 
 so imagine your file contains:
  ```
-    one
-	    two
-    three
-	    four
-	    five
-		    one
-		    two
-		    three
-	    hello
-		    sev
-		    dev
-		    bin
+one
+	two
+three
+	four
+	five
+		one
+		two
+		three
+	hello
+		sev
+		dev
+		bin
 ```
 you can run this app and pass the txt file like:
 dotnet mkdir.dll folders.txt
 
 it will end up creating the following directory sturcture:
 ```
-    ├── one
+├── one
+│   └── two
+└── three
+    ├── five
+    │   ├── one
+    │   ├── three
     │   └── two
-    └── three
-        ├── five
-        │   ├── one
-        │   ├── three
-        │   └── two
-        ├── four
-        └── hello
-            ├── bin
-            ├── dev
-            └── sev
+    ├── four
+    └── hello
+        ├── bin
+        ├── dev
+        └── sev
 ```
 and thats it!
 
