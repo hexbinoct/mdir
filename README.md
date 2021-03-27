@@ -1,7 +1,7 @@
 ﻿Create directory hierarchy from information contained in a text file.
 
 so imagine your file contains:
-
+ ```
     one
 	    two
     three
@@ -14,12 +14,12 @@ so imagine your file contains:
 		    sev
 		    dev
 		    bin
-
+```
 you can run this app and pass the txt file like:
 dotnet mkdir.dll folders.txt
 
 it will end up creating the following directory sturcture:
-
+```
     ├── one
     │   └── two
     └── three
@@ -32,7 +32,7 @@ it will end up creating the following directory sturcture:
             ├── bin
             ├── dev
             └── sev
-
+```
 and thats it!
 
 a NOTE:
