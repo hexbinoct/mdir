@@ -2,18 +2,18 @@
 
 so imagine you file contains:
 
-one
-	two
-three
-	four
-	five
-		one
-		two
-		three
-	hello
-		sev
-		dev
-		bin
+    one
+	    two
+    three
+	    four
+	    five
+		    one
+		    two
+		    three
+	    hello
+		    sev
+		    dev
+		    bin
 
 you can run this app and pass the txt file like:
 dotnet mkdir.dll folders.txt
