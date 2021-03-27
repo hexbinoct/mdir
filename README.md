@@ -2,7 +2,7 @@
 
 **NOTE**: this thing runs on .Net Core, which you can get for your operating system from [here](https://dotnet.microsoft.com/download)
 
-so imagine your file contains:
+so imagine your file contains (_tabs of space are NOT supported right now, only the tab character \t is supported_):
  ```
 one
 	two
