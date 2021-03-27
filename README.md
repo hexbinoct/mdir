@@ -1,6 +1,6 @@
 ﻿Create directory hierarchy from information contained in a text file.
 
-so imagine you file contains:
+so imagine your file contains:
 
     one
 	    two
@@ -35,3 +35,5 @@ it will end up creating the following directory sturcture:
 
 and thats it!
 
+a NOTE:
+there is a variable in this source called m_delimpath, it should be set to "\\" for windows and "/" for mac & linux.
