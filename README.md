@@ -14,7 +14,11 @@ three
 		dev
 		bin
 
-you can run this app and pass the txt file, it will end up creating the following directory sturcture:
+you can run this app and pass the txt file like:
+dotnet mkdir.dll folders.txt
+
+it will end up creating the following directory sturcture:
+
     ├── one
     │   └── two
     └── three
