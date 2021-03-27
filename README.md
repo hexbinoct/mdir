@@ -1,5 +1,7 @@
 ﻿Create directory hierarchy from information contained in a text file.
 
+**NOTE**: this thing runs on .Net Core, which you can get for your operating system from [here](https://dotnet.microsoft.com/download)
+
 so imagine your file contains:
  ```
 one
