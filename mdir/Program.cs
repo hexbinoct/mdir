@@ -44,7 +44,6 @@ namespace mdir
       var lines = File.ReadAllLines(this.treestructurefile);
       string currentdirpath = "";
 
-      int tcount = 0;
       for (int i = 0; i < lines.Length; i++)
       {
         var line = lines[i];
@@ -56,13 +55,6 @@ namespace mdir
 
         mkdir(tempdirpath);
         currentdirpath = tempdirpath;
-
-        
-        /*there are 3 conditions, new line has one more tab, or equal tab, or one or more less tabs.*/
-        if (tcount == tempdata.tabcount)
-        {
-
-        }
 
       }
     }
